@@ -24,9 +24,6 @@ sudo tar cf alternatives.log.tar alternatives.log
 echo "create a backupfile "
 sudo tar cf dpkg.log.tar dpkg.log
 
-
-
-
 echo "your directory code is created successfully"
 sudo mkdir backup
 
