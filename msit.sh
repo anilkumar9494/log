@@ -1,4 +1,3 @@
-
 #!/bin/bash
 # Save Date and Time of the bash script
 # execution inside
