@@ -6,13 +6,13 @@ echo "I will just append to my custom file" >>/var/log/
 cat msit.sh
 
 echo "old file dates logfile"
-sudo grep $(date +"%Y-%m-%d") kern.log
+sudo grep $(date +"%Y-%m-%d") alternatives.log
 sudo grep $(date +"%Y-%m-%d") dpkg.log.
 
 echo "present date logfile"
 sudo grep $(date +"%Y-%m-%d") auth.log
 sudo grep $(date +"%Y-%m-%d") cloud-init-output.log
-sudo grep $(date +"%Y-%m-%d") alternatives.log
+sudo grep $(date +"%Y-%m-%d") kern.log
 sudo grep $(date +"%Y-%m-%d") syslog
 sudo grep $(date +"%Y-%m-%d") cloud-init.log
 
