@@ -6,7 +6,7 @@ cat msit.sh
 
 echo "old file dates logfile"
 sudo grep $(date +"%Y-%m-%d") alternatives.log
-sudo grep $(date +"%Y-%m-%d") dpkg.log.
+sudo grep $(date +"%Y-%m-%d") dpkg.log
 
 echo "present date logfile"
 sudo grep $(date +"%Y-%m-%d") auth.log
