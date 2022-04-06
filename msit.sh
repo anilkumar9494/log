@@ -31,15 +31,14 @@ echo "your directory code is created successfully"
 sudo mkdir backup
 
 echo "file move to folder"
-sudo mv kern.log. backup
-echo "file move to folder"
 sudo mv dpkg.log.tar backup
 echo "file move to folder"
 sudo mv alternatives.log.tar backup
+
+echo "file move to folder"
+sudo mv kern.log. backup
 echo "file move to folder"
 sudo mv auth.log backup
-
-
 echo "file move to folder"
 sudo mv cloud-init-output.log backup
 echo "file move to folder"
