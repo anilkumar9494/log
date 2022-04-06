@@ -40,6 +40,13 @@ sudo mv cloud-init-output.log backup
 echo "file move to folder"
 sudo mv cloud-init.log backup
 
+cd /var/log/backup/dated
+
+echo "file move to folder"
+sudo mv dpkg.log.tar dated
+echo "file move to folder"
+sudo mv alternatives.log.tar dated
+
 echo "go to path "
 cd /var/log/backup
 
