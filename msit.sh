@@ -54,6 +54,15 @@ sudo mv alternatives.log.tar dated
 
 echo "go to path "
 cd /var/log/backup/dated
-echo "backup logfiles cp s3 bucket"
+
+echo "check move folder list"
+ls -lrt | grep "april 6"
+
+du -sh alternatives.log.tar
+du -sh dpkg.log.tar
+
+echo "backuplofile copy s3 bucket"
 sudo aws s3 cp /var/log/backup/dated/alternatives.log.tar s3://msitsolutionsbackuplogfile/backup/
 sudo aws s3 cp /var/log/backup/dated/dpkg.log.tar s3://msitsolutionsbackuplogfile/backup/
+
+
