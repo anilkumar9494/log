@@ -40,7 +40,12 @@ sudo mv cloud-init-output.log backup
 echo "file move to folder"
 sudo mv cloud-init.log backup
 
-cd /var/log/backup/dated
+cd  /var/log/backup
+
+echo "create a directory"
+sudo mkdir dated
+
+cd /var/log/backup/
 
 echo "file move to folder"
 sudo mv dpkg.log.tar dated
@@ -48,9 +53,4 @@ echo "file move to folder"
 sudo mv alternatives.log.tar dated
 
 echo "go to path "
-cd /var/log/backup
-
-echo "check move folder list"
-ls -la
-du -sh alternatives.log.tar
-du -sh dpkg.log.tar
+cd /var/log/backup/dated
