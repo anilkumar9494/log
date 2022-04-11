@@ -90,9 +90,8 @@ check size
 du -sh logfilename.log.tar
 
 
-How to Install AWS CLI on Ubuntu 20.04
- install AWS CLI on Ubuntu 20.04.
- 
+How to Install AWS CLI on Ubuntu 20.04 install AWS CLI on Ubuntu 20.04.
+ =========
 Prerequisites
 To install AWS CLI on Ubuntu you need to meet the following requirements:
 •	AWS Account
