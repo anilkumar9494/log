@@ -176,4 +176,12 @@ upload: ./example.txt to s3://example-bucket-12345/example.txt
 You can list contents of the bucket using the following command.
 =====
 $ aws s3 ls s3://example-bucket-1
- 
+Bash script is using push the github using github clone copy and paste the jenkins jobs github
+
+jenkins jobs run these bash script
+
+jenkins exective shell sh file.sh apply and save click build 
+
+scripting purpose
+===============
+scripting purpose is set command  by using script we can backup the log file in a instance and store them.
