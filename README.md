@@ -100,37 +100,47 @@ To install AWS CLI on Ubuntu you need to meet the following requirements:
 Installation
 
 For the latest version download the 64 bit version using curl command:
+====
 $ sudo curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
  
   Install unzip the package
+  =======
  ($ sudo apt install unzip).
 
 Run the following command to unzip the download the file:
+======
 $ sudo unzip awscliv2.zip
 
 Now run the installer, using:
+====
 $ sudo ./aws/install
 
 To verify the installation, type:
+======
 $ aws --version
 Output:
 aws-cli/2.1.33 Python/3.8.8 Linux/5.4.0-70-generic exe/x86_64.ubuntu.20 prompt/off
+
 Method 2: Installing AWS CLI using APT
- 
+=============== 
 Update system packages: 
 $ sudo apt-get update
 
 Once the system packages are updated, run the following command to install AWS CLI.
+======
 $ sudo apt-get install awscli -y
 
 On completion the installation, run the following command to verify.
+======
 $ aws --version
 You will get output similar as:
 
 Checking AWS CLI version
 After installation, you can configure access to AWS account using AWS CLI. Before starting with aws configuration, you should have IAM user's Access key and Secret key provided with proper access.
 Run the following command to configure access to aws account.
+======
 $ aws configure
+
 Enter the following details accordingly:
 ===================
 •	AWS Access Key ID [IAM user's Access key] :user access key
@@ -139,7 +149,7 @@ Enter the following details accordingly:
 •	Default output format [JSON format is fine]
 You will have output similar as:
 Configuring access to aws account
-
+=====
 $ which aws
 You will get output as:
 /usr/local/bin/aws
@@ -152,6 +162,7 @@ You will get output as:
 lrwxrwxrwx 1 root root 37 Mar 31 04:01 /usr/local/bin/aws -> /usr/local/aws-cli/v2/current/bin/aws 
  
  Creating S3 Bucket using AWS CLI
+=====
 $ aws s3api help
 Output:
 aws s3api create-bucket --bucket example-bucket-12345 --region us-east-1
