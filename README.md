@@ -177,7 +177,7 @@ You can list contents of the bucket using the following command.
 =====
 $ aws s3 ls s3://example-bucket-1
 
-github using
+bash script using github 
 ==========
 Bash script is using push the github using github clone copy and paste the jenkins jobs github
 
