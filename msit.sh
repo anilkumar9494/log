@@ -57,12 +57,13 @@ cd /var/log/backup/dated
 
 echo "check move folder list"
 ls -lrt | grep "april 6"
+ls -lrt
 
 du -sh alternatives.log.tar
 du -sh dpkg.log.tar
 
 echo "backuplofile copy s3 bucket"
-sudo aws s3 cp /var/log/backup/dated/alternatives.log.tar s3://msitsolutionsbackuplogfile/backup/
-sudo aws s3 cp /var/log/backup/dated/dpkg.log.tar s3://msitsolutionsbackuplogfile/backup/
+ aws s3 cp /var/log/backup/dated/alternatives.log.tar s3://msitsolutionsbackuplogfile/backup/
+ aws s3 cp /var/log/backup/dated/dpkg.log.tar s3://msitsolutionsbackuplogfile/backup/
 
 
