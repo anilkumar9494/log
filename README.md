@@ -1,9 +1,17 @@
 # log
 
+creating a IAM USER 
+=
+attaches the aws confige
+=
+USING Access key ID,Secret access key,
+=
+
 •	How to use this bash script
 
 •	# Save Date and Create a ec2 instance in ubentu
-
+attach iam role 
+=
 •	Go to ec2 terminal 
   Go to path /var/log
 
