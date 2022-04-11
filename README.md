@@ -1,9 +1,7 @@
 # log
 
 •	How to use this bash script
-
 •	# Save Date and Create a ec2 instance in ubentu
-
 •	Go to ec2 terminal 
 Go to path /var/log
 
