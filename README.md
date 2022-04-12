@@ -2,20 +2,21 @@
 
 creating a IAM USER 
 =
-attaches the aws confige
+Iam role attaches the ec2 instance config
 =
 USING Access key ID,Secret access key,
 =
 
 •	How to use this bash script
 
-•	# Save Date and Create a ec2 instance in ubentu
+•# Save Date and Create a ec2 instance in ubentu
 attach iam role 
 =
 •	Go to ec2 terminal 
   Go to path /var/log
 
-
+write the bash script logfile to backup,present logfile date,old logfile date,moving folder,moving file moving s3 bucket. 
+===
 #!/bin/bash
 #Time of the bash script
 # execution inside
